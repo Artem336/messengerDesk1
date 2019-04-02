@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="messenger.controller.LoginController">
+   <children>
+      <AnchorPane layoutY="125.0" prefHeight="474.0" prefWidth="900.0" style="-fx-background-color: #AAAA99;">
+         <children>
+            <TextField fx:id="login_field" layoutX="285.0" layoutY="146.0" prefHeight="45.0" prefWidth="330.0" promptText="Login:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_field" layoutX="285.0" layoutY="204.0" prefHeight="45.0" prefWidth="330.0" promptText="Password:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="logInButton" layoutX="383.0" layoutY="273.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="133.0" text="Log in">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="313.0" layoutY="32.0" text="MyMessenger" textFill="#f0eded">
+         <font>
+            <Font name="Script MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginSignUpButton" layoutX="679.0" layoutY="70.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="206.0" text="Sign Up">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

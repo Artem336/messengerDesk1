@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="messenger.controller.RegistrationController">
+   <children>
+      <AnchorPane layoutY="138.0" prefHeight="474.0" prefWidth="900.0" style="-fx-background-color: #AAAA99;">
+         <children>
+            <TextField fx:id="registrationLogin" layoutX="95.0" layoutY="210.0" prefHeight="45.0" prefWidth="330.0" promptText="Login:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="registrationPassword" layoutX="474.0" layoutY="210.0" prefHeight="45.0" prefWidth="330.0" promptText="Password:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="RegistrationSignUpButton" layoutX="331.0" layoutY="297.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="222.0" text="Sign Up">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="registrationBackButton" layoutX="760.0" layoutY="407.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="117.0" text="Back">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="registrationName" layoutX="95.0" layoutY="130.0" prefHeight="45.0" prefWidth="330.0" promptText="Name:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="registrationTel" layoutX="474.0" layoutY="130.0" prefHeight="45.0" prefWidth="330.0" promptText="tel:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Label layoutX="231.0" layoutY="14.0" text="Create a new account:" textFill="#f0eded">
+               <font>
+                  <Font name="Berlin Sans FB" size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="313.0" layoutY="32.0" text="MyMessenger" textFill="#f0eded">
+         <font>
+            <Font name="Script MT Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

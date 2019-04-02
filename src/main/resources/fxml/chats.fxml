@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="messenger.controller.ChatsController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="125.0" prefHeight="474.0" prefWidth="900.0" style="-fx-background-color: #AAAA99;">
+         <children>
+            <Label layoutX="215.0" layoutY="14.0" text="Chat list:" textFill="#f0eded">
+               <font>
+                  <Font name="Script MT Bold" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="313.0" layoutY="32.0" text="MyMessenger" textFill="#f0eded">
+         <font>
+            <Font name="Script MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="chatsBackButton" layoutX="757.0" layoutY="76.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="124.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
