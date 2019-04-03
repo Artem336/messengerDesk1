@@ -1,4 +1,4 @@
-package messenger.controller;
+package main.java.messenger.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -45,7 +45,7 @@ public class RegistrationController {
             registrationBackButton.getScene().getWindow().hide();
 
             FXMLLoader fxmlLoader=new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("/fxml/login.fxml"));
+            fxmlLoader.setLocation(getClass().getResource("/main/resources/fxml/login.fxml"));
             try {
                 fxmlLoader.load();
             } catch (IOException e) {

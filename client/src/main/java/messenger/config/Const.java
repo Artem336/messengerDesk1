@@ -1,4 +1,4 @@
-package messenger.config;
+package main.java.messenger.config;
 
 public class Const {
     public static final String USER_TABLE="users";

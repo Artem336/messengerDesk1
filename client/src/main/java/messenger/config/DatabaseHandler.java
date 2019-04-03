@@ -1,4 +1,4 @@
-package messenger.config;
+package main.java.messenger.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

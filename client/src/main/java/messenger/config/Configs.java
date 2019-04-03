@@ -1,4 +1,4 @@
-package messenger.config;
+package main.java.messenger.config;
 
 public class Configs {
     protected String dbHost="localhost";
